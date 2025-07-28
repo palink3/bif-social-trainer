@@ -7,8 +7,8 @@ class WelcomeIllustration extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Assets.illustrations.illWelcome.image(
-          width: 270,
-          height: 320,
+          width: 260,
+          height: 300,
           fit: BoxFit.cover
     );
   }

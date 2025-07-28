@@ -10,6 +10,7 @@ class WelcomeScreen extends StatelessWidget {
     return const Scaffold(
       backgroundColor: AppColors.welcomeBackground,
       body: SafeArea(
+        top: false,
         child: WelcomeBody(),
       ),
     );
